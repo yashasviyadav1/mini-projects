@@ -1,0 +1,70 @@
+body{
+    background-color: rgb(17, 17, 19);
+    /* background-color: #181820; */
+}
+
+.page-heading-container{
+    margin-top: 100px;
+}
+.page-heading{
+    /* border: 1px solid white; */
+
+    /* color: white; */
+    color:  pink;
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.login-div-container{
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+}
+
+.login-div{
+    /* border: 2px solid pink; */
+
+    color: white;
+    text-align: center;
+
+}
+
+.input-label{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.input-box{
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 10px;
+    height: 40px;
+    width: 300px;
+    caret-color: white;
+    padding-left: 10px;   /*for place holder*/
+}
+
+::placeholder{ /*special keyword*/
+    color: rgb(155, 140, 140);
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+input{ /*special keyword*/
+    color: white;
+}
+
+#submit-btn{
+    color: black;
+    width: 100%;
+    height: 35px;
+    border-radius: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    background-color: pink;
+    border: 0px;
+}
+
+
