@@ -1,0 +1,127 @@
+
+body{
+    margin:0;
+}
+
+/* ------NavBar Styling-------- */
+
+.navbar-container{
+    /* border: 1px solid black; */
+    background-color: #d00000;
+    display: flex;
+    flex-direction: row;
+    /* gap: 10px; */
+}
+
+.navbar-anchor{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    width: 16%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Varela', sans-serif;
+    /* border: 1px solid pink; */
+}
+
+#contact-us-anchor{
+    margin: 0;
+    /* border: 1px solid white; */
+    background-color: rgb(247, 247, 79);
+    color: black;
+    padding-top: 8px; /*just to center the anchor*/
+}
+
+.navbar-anchor:hover{ 
+    color: rgb(0, 255, 234);  
+}
+#contact-us-anchor:hover{
+    background-color: rgb(43, 100, 93);
+    color: rgb(241, 241, 241);
+}
+
+
+/* --------Chitkara center main logo-------- */
+
+.chitkara-logo-img{
+    height: 200px;
+    /* border: 1px solid black; */
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    object-fit: contain;
+}
+
+/*--------- chitkara campus img ---------*/
+.campus-pic-container{
+
+}
+
+.chitkara-campus-img{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 40px;
+}
+
+/* ----------courses cards------------ */
+/* note i created 2 containers because, it is difficult to center 3 divs inside a single container, 
+but using 2 containers, what i did is i centered the inner container (width:80% leftpush:10% rightpush:10%)
+and inside this inner container are my 3 divs (Cards), then i applied flex-row on the inner container
+ */
+.courses-cards-outter-container{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 100%;
+    /* border: 1px solid black; */
+    background-color: #f5f5f5;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+
+.courses-cards-inner-container{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;  /*to center this inner container(which is inside outer container)*/
+    /* border: 3px solid rgb(211, 25, 25); */
+    display: flex;
+    flex-direction: row; /* so that we can fit the 3 cards equally inside the inner-container*/
+    gap: 20px;
+}
+
+.course-card{
+    flex-basis: 33%;
+    /* border: 1px solid black; */
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;    
+    text-align: center;
+     font-family: 'Open Sans', sans-serif; 
+}
+
+
+
+/*------------- footer maps--------------- */
+.footer-container{
+    background-color: black;
+    height: 300px;
+    width: 100%;
+}
+
+.chitkara-gmap{
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top:40px;
+    height: 150px;
+    border-radius: 20px;
+}
+
+.footer-para{
+    text-align: center;
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+}
