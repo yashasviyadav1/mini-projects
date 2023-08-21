@@ -1,0 +1,122 @@
+body{
+    background-color: #4bff9e;
+}
+
+/*--------- css for heading on top of webpage---------------- */
+.webpage-heading-container{
+    /* border: 1px solid black; */
+    margin-bottom: 10px;
+
+    font-size: 45px;
+    font-family: 'Dai Banna SIL', serif;
+    text-align: center;
+}
+
+/* ---------css for cards section (cources)------------------- */
+.cards-container-div{
+
+    /*border: 1px solid rgb(0, 0, 0);  */   /*for coding purpose*/
+
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    height:  377px;
+    height:  400px;
+    width: 100%;
+}
+
+.cards-div{
+    /* border: 1px solid black; */
+    /*padding: 10px;*/  /*for coding purpose only */
+
+    width: 22%;
+    height: 100%;
+    border-radius: 20px;
+
+}
+.cards-div:hover{
+    box-shadow: 1px 5px 10px 1px grey; 
+}
+
+.cards-upper-div{
+    /* border: 1px solid red; */
+
+    height: 30%;
+    background-image: linear-gradient(#0b4725, #017d7b);
+    color: white;
+    text-align: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding-top: 20px;
+
+}
+
+.cards-bottom-div{
+    /*for coding purpose only*/
+    /* border: 1px solid blue; */
+
+    height: 70%;
+    /* background-color: #e0fefe; */
+    background-image: linear-gradient(white, rgb(166, 248, 228));
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.cards-heading{
+    font-size: 24px;
+    font-family: 'PT Serif', serif;
+    margin:0;
+}
+
+.cards-bottom-para{
+    margin:0;
+    font-family: 'PT Serif', serif;
+}
+
+.cards-upper-para{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.cards-bottom-price-div{
+    /* border: 1px solid black; */
+    
+    background-image: linear-gradient(#3ffe7c,#6cfff7 );
+    border-radius: 15px;
+    height: 50px;
+    padding-top: 10px;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%; /*to center the price-div inside the 'cards-bottom-div' */
+    margin-top: 20px;
+
+}
+
+.cards-bottom-purchase-div{
+
+
+    margin-top: 20px;
+    border: 2px solid grey;
+    width:60%;
+    height: 30px;
+    padding-top: 10px;
+
+    margin-left:20%;
+    margin-right:20%; /*to center the purchase-div inside the 'cards-bottom-div' */
+    border-radius: 10px;
+    color: grey;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    transition-duration: 2s;
+}
+
+.cards-bottom-purchase-div:hover{
+    color: white;
+    background-image: linear-gradient(#074623, #027974);
+    /* transition-delay:1s; */
+}
+
+
+
+
